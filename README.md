@@ -116,7 +116,7 @@ The API can issue short-lived JWTs after a password check; the browser stores th
 cd backend && source .venv/bin/activate && ruff check app tests && pytest
 ```
 
-`app/` is covered at 100% line coverage in CI.
+`app/` is covered at 100% line coverage when you run `pytest` locally.
 
 **Frontend**
 
@@ -132,7 +132,7 @@ cd frontend && npm run lint && npm test && npm run build
 | `backend/tests/` | Pytest and fixtures |
 | `frontend/src/` | UI, graph layout, API client |
 
-Dependabot opens grouped npm updates (production vs development). Keep `package-lock.json` committed and review major bumps (React Flow, jsPDF, etc.) explicitly.
+Keep `package-lock.json` committed and review major dependency bumps (React Flow, jsPDF, etc.) explicitly.
 
 ## Author
 
