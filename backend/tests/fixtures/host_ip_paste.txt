@@ -1,0 +1,9 @@
+Subdomain
+in ascending order
+Sort by
+IP Address
+in ascending order
+svc-a.inventory.test	192.0.2.10
+svc-b.inventory.test	192.0.2.10
+www.inventory.test	198.51.100.20
+svc-pending.inventory.test	N/A

@@ -1,0 +1,135 @@
+{
+  "a11y": {
+    "addNode": "Ajouter un nœud",
+    "deleteSelection": "Supprimer la sélection",
+    "exportJson": "Exporter JSON",
+    "exportPdf": "Exporter PDF",
+    "exportPng": "Exporter PNG",
+    "graphExitFullscreen": "Quitter le plein écran",
+    "graphFullscreen": "Plein écran",
+    "hostIpPaste": "Zone de collage liste hôtes",
+    "hostIpPasteSubmit": "Parser le collage",
+    "langEn": "Anglais",
+    "langFr": "Français",
+    "layoutDirection": "Sens du layout",
+    "layoutFitView": "Ajuster à la vue",
+    "layoutSpacing": "Espacement",
+    "menuExport": "Menu export",
+    "menuImport": "Menu import",
+    "newGraph": "Vider le graphe",
+    "uploadHostIpTable": "Liste hôtes (fichier)",
+    "uploadJson": "JSON topologie",
+    "uploadNmap": "Nmap XML",
+    "uploadTabular": "Tableau CSV / JSON"
+  },
+  "apiSession": {
+    "errLoginFailed": "Connexion refusée (mot de passe ou réseau).",
+    "errRateLimited": "Trop de tentatives de connexion. Attendez une minute puis réessayez.",
+    "errTokenDisabled": "Pas de connexion par mot de passe sur ce serveur (JWT non configuré).",
+    "password": "Mot de passe API",
+    "signIn": "Connexion",
+    "signOut": "Déconnexion",
+    "signedIn": "Session active (JWT).",
+    "staticKeyOnly": "Cette API attend une clé statique. Définissez VITE_API_KEY au build ou utilisez un reverse proxy.",
+    "title": "Accès API"
+  },
+  "common": {
+    "emptyDisplay": "-"
+  },
+  "editor": {
+    "addNode": "Ajouter",
+    "defaultNodeLabel": "nœud",
+    "deleteSelection": "Suppr.",
+    "nodeId": "ID",
+    "nodeIdPlaceholder": "10.0.0.5",
+    "nodeLabel": "Libellé",
+    "nodeType": "Rôle",
+    "title": "Nœuds"
+  },
+  "errors": {
+    "apiOffline": "API indisponible. Démarrez le backend sur le port 8001.",
+    "generic": "Erreur",
+    "graphInvalid": "JSON topologie invalide",
+    "hostIpTable": "Aucune ligne valide (hôte, IP ou N/A).",
+    "parseFailed": "Échec du parse"
+  },
+  "export": {
+    "fileJson": "ipovtich-graph.json",
+    "filePdf": "ipovtich-graph.pdf",
+    "filePng": "ipovtich-graph.png",
+    "json": "JSON",
+    "pdf": "PDF",
+    "png": "PNG"
+  },
+  "filters": {
+    "portMax": "Port max",
+    "portMin": "Port min",
+    "title": "Filtre",
+    "typeGateway": "Passerelle",
+    "typeHost": "Hôte",
+    "typeSubnet": "Subnet",
+    "typeUnknown": "Inconnu"
+  },
+  "graph": {
+    "empty": "Aucune carte",
+    "emptyHint": "Suivez les étapes à gauche."
+  },
+  "guide": {
+    "stepExplore": "Cliquez un nœud pour le détail. Glissez le fond pour déplacer. Molette ou pincement pour zoomer.",
+    "stepImport": "Importez depuis la barre du haut : XML Nmap, liste d’hôtes, tableau CSV ou JSON, ou JSON de topologie.",
+    "stepLayout": "Layout et filtres dans cette colonne. Export dans la barre du haut : PNG, PDF ou JSON.",
+    "title": "Guide"
+  },
+  "hostIpTable": {
+    "pastePlaceholder": "host.example.com\t10.0.0.1",
+    "pasteSubmit": "Parser",
+    "sectionTitle": "Collage hôtes"
+  },
+  "inspector": {
+    "ip": "Adr.",
+    "label": "Nom",
+    "noSelection": "-",
+    "os": "OS",
+    "ports": "Ports",
+    "services": "Services",
+    "title": "Sélection"
+  },
+  "lang": {
+    "en": "English",
+    "fr": "Français"
+  },
+  "layout": {
+    "bt": "BT",
+    "direction": "Sens",
+    "exitFullscreen": "Quitter",
+    "fitView": "Ajuster",
+    "lr": "LR",
+    "rl": "RL",
+    "spacing": "Espacement",
+    "spacingCompact": "Serré",
+    "spacingNormal": "Normal",
+    "spacingRelaxed": "Large",
+    "tb": "TB",
+    "title": "Layout"
+  },
+  "tabular": {
+    "labelKey": "Colonne libellé",
+    "sourceKey": "Colonne source",
+    "targetKey": "Colonne cible",
+    "title": "Tableau vers graphe"
+  },
+  "title": "IPovtich",
+  "toolbar": {
+    "clear": "Réinitialiser",
+    "export": "Export",
+    "fit": "Ajuster",
+    "fs": "Plein écran",
+    "import": "Import"
+  },
+  "upload": {
+    "hostIpTable": "Liste hôtes",
+    "json": "JSON",
+    "nmap": "Nmap XML",
+    "tabular": "CSV / JSON"
+  }
+}

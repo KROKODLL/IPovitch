@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nmaprun scanner="nmap">
+  <host>
+    <status state="up"/>
+    <address addr="10.0.0.5" addrtype="ipv4"/>
+    <hostnames>
+      <hostname name="test-host" type="user"/>
+    </hostnames>
+    <ports>
+      <port protocol="tcp" portid="22">
+        <state state="open"/>
+        <service name="ssh"/>
+      </port>
+      <port protocol="tcp" portid="80">
+        <state state="closed"/>
+      </port>
+      <port protocol="tcp" portid="443">
+        <state state="open"/>
+        <service name="https"/>
+      </port>
+    </ports>
+  </host>
+</nmaprun>

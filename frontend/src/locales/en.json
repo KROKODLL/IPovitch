@@ -1,0 +1,135 @@
+{
+  "a11y": {
+    "addNode": "Add node",
+    "deleteSelection": "Remove selected node",
+    "exportJson": "Export JSON",
+    "exportPdf": "Export PDF",
+    "exportPng": "Export PNG",
+    "graphExitFullscreen": "Exit fullscreen",
+    "graphFullscreen": "Fullscreen",
+    "hostIpPaste": "Host list paste buffer",
+    "hostIpPasteSubmit": "Parse paste",
+    "langEn": "English",
+    "langFr": "French",
+    "layoutDirection": "Layout direction",
+    "layoutFitView": "Fit graph to viewport",
+    "layoutSpacing": "Node spacing",
+    "menuExport": "Export menu",
+    "menuImport": "Import menu",
+    "newGraph": "Discard graph and start empty",
+    "uploadHostIpTable": "Upload host list",
+    "uploadJson": "Upload topology JSON",
+    "uploadNmap": "Upload Nmap XML",
+    "uploadTabular": "Upload CSV or JSON table"
+  },
+  "apiSession": {
+    "errLoginFailed": "Sign-in failed (wrong password or network).",
+    "errRateLimited": "Too many sign-in attempts. Wait a minute and try again.",
+    "errTokenDisabled": "Server has no password login (JWT not configured).",
+    "password": "API password",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "signedIn": "Session active (JWT).",
+    "staticKeyOnly": "This API expects a static key. Set VITE_API_KEY at build time or use a reverse proxy.",
+    "title": "API access"
+  },
+  "common": {
+    "emptyDisplay": "-"
+  },
+  "editor": {
+    "addNode": "Add",
+    "defaultNodeLabel": "node",
+    "deleteSelection": "Remove",
+    "nodeId": "ID",
+    "nodeIdPlaceholder": "10.0.0.5",
+    "nodeLabel": "Label",
+    "nodeType": "Role",
+    "title": "Nodes"
+  },
+  "errors": {
+    "apiOffline": "API unavailable. Start the backend on port 8001.",
+    "generic": "Error",
+    "graphInvalid": "Invalid topology JSON",
+    "hostIpTable": "No valid lines (host, whitespace, IP or N/A).",
+    "parseFailed": "Parse failed"
+  },
+  "export": {
+    "fileJson": "ipovtich-graph.json",
+    "filePdf": "ipovtich-graph.pdf",
+    "filePng": "ipovtich-graph.png",
+    "json": "JSON",
+    "pdf": "PDF",
+    "png": "PNG"
+  },
+  "filters": {
+    "portMax": "Port max",
+    "portMin": "Port min",
+    "title": "Scope",
+    "typeGateway": "Gateway",
+    "typeHost": "Host",
+    "typeSubnet": "Subnet",
+    "typeUnknown": "Unknown"
+  },
+  "graph": {
+    "empty": "No map loaded",
+    "emptyHint": "Use the steps on the left."
+  },
+  "guide": {
+    "stepExplore": "Click a node for details. Drag the canvas to pan. Scroll or pinch to zoom.",
+    "stepImport": "Import data from the top bar: Nmap XML, host list, CSV or JSON table, or topology JSON.",
+    "stepLayout": "Change layout and filters in this column. Export from the top bar: PNG, PDF, or JSON.",
+    "title": "How to use"
+  },
+  "hostIpTable": {
+    "pastePlaceholder": "host.example.com\t10.0.0.1",
+    "pasteSubmit": "Parse",
+    "sectionTitle": "Host paste"
+  },
+  "inspector": {
+    "ip": "Addr",
+    "label": "Name",
+    "noSelection": "-",
+    "os": "OS",
+    "ports": "Ports",
+    "services": "Services",
+    "title": "Selection"
+  },
+  "lang": {
+    "en": "English",
+    "fr": "Français"
+  },
+  "layout": {
+    "bt": "BT",
+    "direction": "Direction",
+    "exitFullscreen": "Exit",
+    "fitView": "Fit",
+    "lr": "LR",
+    "rl": "RL",
+    "spacing": "Spacing",
+    "spacingCompact": "Tight",
+    "spacingNormal": "Normal",
+    "spacingRelaxed": "Wide",
+    "tb": "TB",
+    "title": "Layout"
+  },
+  "tabular": {
+    "labelKey": "Label column",
+    "sourceKey": "Source column",
+    "targetKey": "Target column",
+    "title": "Table to graph"
+  },
+  "title": "IPovtich",
+  "toolbar": {
+    "clear": "Reset graph",
+    "export": "Export",
+    "fit": "Fit",
+    "fs": "Fullscreen",
+    "import": "Import"
+  },
+  "upload": {
+    "hostIpTable": "Host list",
+    "json": "JSON",
+    "nmap": "Nmap XML",
+    "tabular": "CSV / JSON"
+  }
+}
